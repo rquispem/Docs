@@ -46,13 +46,13 @@ You can follow same procedure in the official  AWS document [Getting started wit
    
    example:
    eksctl create cluster --name cloudfreak-cluster \
-      --region ap-south-1 \
-   --node-type t2.medium \
+   --region us-east-1 \
+--node-type t2.medium
     ```
 
 5. To delete the EKS clsuter 
    ```sh 
-   eksctl delete cluster cloudfreak-cluster --region ap-south-1
+   eksctl delete cluster cloudfreak-cluster --region us-east-1
    ```
    
 6. Validate your cluster using by creating by checking nodes and by creating a pod 
